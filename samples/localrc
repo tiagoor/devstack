@@ -23,9 +23,9 @@
 
 # If the ``*_PASSWORD`` variables are not set here you will be prompted to enter
 # values for them by ``stack.sh`` and they will be added to ``localrc``.
-ADMIN_PASSWORD=nomoresecrete
-MYSQL_PASSWORD=stackdb
-RABBIT_PASSWORD=stackqueue
+ADMIN_PASSWORD=xvnkistack
+MYSQL_PASSWORD=xvnkistack
+RABBIT_PASSWORD=xvnkistack
 SERVICE_PASSWORD=$ADMIN_PASSWORD
 
 # ``HOST_IP`` should be set manually for best results if the NIC configuration
@@ -48,7 +48,7 @@ LOGFILE=$DEST/logs/stack.sh.log
 
 # Old log files are automatically removed after 7 days to keep things neat.  Change
 # the number of days by setting ``LOGDAYS``.
-LOGDAYS=2
+LOGDAYS=21
 
 # Nova logs will be colorized if ``SYSLOG`` is not set; turn this off by setting
 # ``LOG_COLOR`` false.
