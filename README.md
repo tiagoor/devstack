@@ -1,3 +1,4 @@
+# tor@openstack.eti.br
 DevStack is a set of scripts and utilities to quickly deploy an OpenStack cloud.
 
 # Goals
